@@ -1,0 +1,33 @@
+.right-section h2 {
+    font-size: 22px;
+    padding-block: 8px;
+    font-weight: lighter;
+}
+
+section.top {
+    padding-inline: 64px;
+    padding-top: 64px;
+}
+
+form section.middle {
+    background-color: aliceblue;
+    padding: 16px 64px;
+    margin-top: 64px;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+}
+
+form section.bottom {
+    padding: 16px 64px;
+}
+
+form section.bottom p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 16px;
+}
+
+form section.bottom a {
+    text-decoration: none;
+    color: #596c4c;
+}

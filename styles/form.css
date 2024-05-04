@@ -1,0 +1,58 @@
+div.fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: min-content;
+    gap: 32px 80px;
+}
+
+form h3 {
+    font-size: 42px;
+    margin-block: 16px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    text-justify: distribute;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+    gap: 4px;
+    color: rgb(62, 62, 62);
+}
+
+.fields input {
+    font-size: 16px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    width: 300px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.fields input:focus {
+    border-color: royalblue;
+    outline: 2px solid royalblue;
+}
+
+button[type="submit"] {
+    color: white;
+    background-color: #596c4c;
+
+    width: 256px;
+    padding-block: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
