@@ -41,6 +41,10 @@ label {
     outline: 1px solid royalblue;
 }
 
+.fields input:invalid {
+    border-color: red;
+}
+
 button[type="submit"] {
     color: white;
     background-color: #596d48;
